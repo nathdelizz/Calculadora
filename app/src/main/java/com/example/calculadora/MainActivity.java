@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 double resultado = valor1 - valor2;
                 tvResultado.setText( String.valueOf(resultado));
             }
-        });
+        });//teste
         buttonMulti.setOnClickListener(new View.OnClickListener()
         {
             @Override
